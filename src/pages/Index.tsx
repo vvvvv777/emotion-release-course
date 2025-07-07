@@ -277,8 +277,8 @@ export default function Index() {
         <div className="mx-auto max-w-5xl">
           <Card className="p-8 lg:p-12 shadow-2xl bg-gradient-to-r from-primary to-primary/80">
             <div className="text-center space-y-8">
-              <div className="space-y-6">
-                <h2 className="text-3xl sm:text-4xl font-serif font-bold text-primary-foreground">
+              <div className="space-y-6 mx-0">
+                <h2 className="text-3xl sm:text-4xl font-serif text-primary-foreground font-extralight">
                   Если ты устала ждать, терпеть, оправдывать чужое бездействие и
                   вечный холод
                 </h2>
