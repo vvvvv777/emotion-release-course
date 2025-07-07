@@ -110,15 +110,6 @@ export default function Index() {
                       в сценарии отношений с эмоционально недоступным партнёром
                     </p>
                   </div>
-                  <div className="flex flex-col sm:flex-row gap-4">
-                    <Button
-                      size="lg"
-                      className="text-lg px-8 py-6 rounded-full bg-red-600 hover:bg-red-700 text-white font-light uppercase"
-                    >
-                      Записаться на курс
-                      <Icon name="ArrowRight" className="ml-2" size={20} />
-                    </Button>
-                  </div>
                 </div>
                 <div className="relative animate-scale-in">
                   <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-accent/10 rounded-3xl blur-3xl"></div>
@@ -402,15 +393,10 @@ export default function Index() {
                   </p>
                 </div>
 
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button
-                    size="lg"
-                    variant="secondary"
-                    className="text-lg px-8 py-6 rounded-full bg-red-600 hover:bg-red-700 text-white font-light uppercase"
-                  >
-                    Записаться на курс прямо сейчас
-                    <Icon name="ArrowRight" className="ml-2" size={20} />
-                  </Button>
+                <div className="text-center">
+                  <p className="text-5xl sm:text-6xl font-bold text-primary-foreground tracking-wider">
+                    5 900 РУБЛЕЙ
+                  </p>
                 </div>
 
                 <div className="pt-8 border-t border-primary-foreground/20">
