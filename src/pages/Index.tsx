@@ -14,7 +14,7 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-muted relative overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-10">
+      <div className="absolute inset-0 opacity-25">
         <svg
           className="w-full h-full"
           viewBox="0 0 1000 1000"
@@ -25,67 +25,63 @@ export default function Index() {
               id="lines"
               x="0"
               y="0"
-              width="200"
-              height="200"
+              width="150"
+              height="150"
               patternUnits="userSpaceOnUse"
             >
               <line
                 x1="0"
-                y1="50"
-                x2="200"
-                y2="50"
+                y1="0"
+                x2="150"
+                y2="150"
+                stroke="#374151"
+                strokeWidth="2"
+                opacity="0.6"
+              />
+              <line
+                x1="0"
+                y1="150"
+                x2="150"
+                y2="0"
+                stroke="#6b7280"
+                strokeWidth="2"
+                opacity="0.4"
+              />
+              <line
+                x1="0"
+                y1="75"
+                x2="150"
+                y2="225"
+                stroke="#9ca3af"
+                strokeWidth="1"
+                opacity="0.5"
+              />
+              <line
+                x1="75"
+                y1="0"
+                x2="225"
+                y2="150"
+                stroke="#6b7280"
+                strokeWidth="1"
+                opacity="0.4"
+              />
+              <line
+                x1="-75"
+                y1="0"
+                x2="75"
+                y2="150"
                 stroke="#374151"
                 strokeWidth="1"
                 opacity="0.3"
               />
               <line
                 x1="0"
-                y1="150"
-                x2="200"
-                y2="150"
-                stroke="#6b7280"
-                strokeWidth="1"
-                opacity="0.2"
-              />
-              <line
-                x1="50"
-                y1="0"
-                x2="50"
-                y2="200"
-                stroke="#374151"
-                strokeWidth="1"
-                opacity="0.3"
-              />
-              <line
-                x1="150"
-                y1="0"
+                y1="-75"
                 x2="150"
-                y2="200"
-                stroke="#6b7280"
-                strokeWidth="1"
-                opacity="0.2"
-              />
-              <circle cx="50" cy="50" r="2" fill="#9ca3af" opacity="0.4" />
-              <circle cx="150" cy="150" r="2" fill="#6b7280" opacity="0.3" />
-              <line
-                x1="25"
-                y1="25"
-                x2="175"
-                y2="175"
+                y2="75"
                 stroke="#9ca3af"
                 strokeWidth="1"
-                opacity="0.2"
-                strokeDasharray="5,5"
-              />
-              <line
-                x1="175"
-                y1="25"
-                x2="25"
-                y2="175"
-                stroke="#6b7280"
-                strokeWidth="1"
-                opacity="0.2"
-                strokeDasharray="3,7"
+                opacity="0.3"
               />
             </pattern>
           </defs>
@@ -142,9 +138,6 @@ export default function Index() {
           <div className="mx-auto max-w-5xl">
             <Card className="p-8 lg:p-12 shadow-[0_40px_80px_-12px_rgba(0,0,0,0.5)] bg-card/95 backdrop-blur-sm">
               <div className="text-center space-y-6">
-                <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
-                  <Icon name="User" size={40} className="text-primary" />
-                </div>
                 <div className="space-y-4">
                   <h2 className="text-2xl sm:text-3xl font-serif font-bold text-foreground">
                     Александра Кристи
@@ -188,12 +181,8 @@ export default function Index() {
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <Card className="text-center p-6 hover:shadow-lg transition-shadow">
                       <CardContent className="space-y-4">
-                        <div className="w-16 h-16 bg-destructive/10 rounded-full flex items-center justify-center mx-auto">
-                          <Icon
-                            name="Zap"
-                            size={32}
-                            className="text-destructive"
-                          />
+                        <div className="w-16 h-16 bg-red-600/10 rounded-full flex items-center justify-center mx-auto">
+                          <Icon name="Zap" size={32} className="text-red-600" />
                         </div>
                         <h3 className="text-xl font-semibold">
                           Эмоциональные качели
@@ -206,11 +195,11 @@ export default function Index() {
                     </Card>
                     <Card className="text-center p-6 hover:shadow-lg transition-shadow">
                       <CardContent className="space-y-4">
-                        <div className="w-16 h-16 bg-destructive/10 rounded-full flex items-center justify-center mx-auto">
+                        <div className="w-16 h-16 bg-red-600/10 rounded-full flex items-center justify-center mx-auto">
                           <Icon
                             name="AlertTriangle"
                             size={32}
-                            className="text-destructive"
+                            className="text-red-600"
                           />
                         </div>
                         <h3 className="text-xl font-semibold">
@@ -223,11 +212,11 @@ export default function Index() {
                     </Card>
                     <Card className="text-center p-6 hover:shadow-lg transition-shadow">
                       <CardContent className="space-y-4">
-                        <div className="w-16 h-16 bg-destructive/10 rounded-full flex items-center justify-center mx-auto">
+                        <div className="w-16 h-16 bg-red-600/10 rounded-full flex items-center justify-center mx-auto">
                           <Icon
                             name="Heart"
                             size={32}
-                            className="text-destructive"
+                            className="text-red-600"
                           />
                         </div>
                         <h3 className="text-xl font-semibold">
@@ -304,11 +293,11 @@ export default function Index() {
                   >
                     <CardHeader className="pb-4">
                       <div className="flex items-center gap-4">
-                        <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                        <div className="w-12 h-12 bg-red-600/10 rounded-full flex items-center justify-center">
                           <Icon
                             name={item.icon as any}
                             size={24}
-                            className="text-primary"
+                            className="text-red-600"
                           />
                         </div>
                         <CardTitle className="text-xl">{item.title}</CardTitle>
@@ -374,11 +363,11 @@ export default function Index() {
                     className="p-8 hover:shadow-lg transition-all"
                   >
                     <div className="flex items-start gap-6">
-                      <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                      <div className="w-16 h-16 bg-red-600/10 rounded-full flex items-center justify-center flex-shrink-0">
                         <Icon
                           name={item.icon as any}
                           size={28}
-                          className="text-primary"
+                          className="text-red-600"
                         />
                       </div>
                       <div className="space-y-2">
@@ -434,38 +423,6 @@ export default function Index() {
             </Card>
           </div>
         </section>
-
-        {/* Footer */}
-        <footer className="px-4 py-8 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-6xl">
-            <Card className="p-8 shadow-[0_40px_80px_-12px_rgba(0,0,0,0.5)] bg-card/95 backdrop-blur-sm">
-              <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-                <div className="text-center md:text-left">
-                  <h3 className="text-xl font-serif font-semibold text-foreground">
-                    Курс "Как выжить в отношениях с избегающим мужчиной"
-                  </h3>
-                  <p className="text-muted-foreground">
-                    Верни себе любовь и спокойствие
-                  </p>
-                </div>
-                <div className="flex space-x-6">
-                  <Button variant="ghost" size="sm">
-                    <Icon name="Mail" size={20} />
-                    Контакты
-                  </Button>
-                  <Button variant="ghost" size="sm">
-                    <Icon name="Phone" size={20} />
-                    Поддержка
-                  </Button>
-                </div>
-              </div>
-              <Separator className="my-6" />
-              <div className="text-center text-sm text-muted-foreground">
-                © 2025 Курс по психологии отношений. Все права защищены.
-              </div>
-            </Card>
-          </div>
-        </footer>
       </div>
     </div>
   );
