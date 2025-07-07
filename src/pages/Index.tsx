@@ -394,7 +394,7 @@ export default function Index() {
                 </div>
 
                 <div className="text-center">
-                  <p className="sm:text-6xl tracking-wider text-red-500 font-bold text-5xl">
+                  <p className="sm:text-6xl tracking-wider font-semibold text-5xl text-red-500">
                     СТОИМОСТЬ КУРСА 5.900 РУБЛЕЙ
                   </p>
                 </div>
