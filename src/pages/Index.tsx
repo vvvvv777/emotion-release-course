@@ -195,7 +195,7 @@ export default function Index() {
         <div className="mx-auto max-w-4xl">
           <div className="text-center space-y-6 mb-16">
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-foreground">
-              В результате курса ты
+              В результате курса ты:
             </h2>
           </div>
 
