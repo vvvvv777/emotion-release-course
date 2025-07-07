@@ -94,8 +94,8 @@ export default function Index() {
         {/* Hero Section */}
         <section className="relative px-4 py-8 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-6xl">
-            <Card className="p-8 lg:p-12 shadow-2xl bg-card/95 backdrop-blur-sm">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <Card className="p-8 lg:p-12 shadow-2xl bg-card/95 backdrop-blur-sm relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-br before:from-white/5 before:to-transparent before:pointer-events-none after:absolute after:inset-0 after:bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1)_0%,transparent_50%)] after:pointer-events-none">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
                 <div className="space-y-8 animate-fade-in">
                   <div className="space-y-4">
                     <Badge variant="secondary" className="text-sm font-medium">
@@ -136,8 +136,8 @@ export default function Index() {
         {/* Author Section */}
         <section className="px-4 py-8 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-5xl">
-            <Card className="p-8 lg:p-12 shadow-[0_40px_80px_-12px_rgba(0,0,0,0.5)] bg-card/95 backdrop-blur-sm">
-              <div className="text-center space-y-6">
+            <Card className="p-8 lg:p-12 shadow-[0_40px_80px_-12px_rgba(0,0,0,0.5)] relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-br before:from-white/5 before:to-transparent before:pointer-events-none after:absolute after:inset-0 after:bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1)_0%,transparent_50%)] after:pointer-events-none bg-card/95 backdrop-blur-sm">
+              <div className="text-center space-y-6 relative z-10">
                 <div className="space-y-4">
                   <h2 className="text-2xl sm:text-3xl font-serif font-bold text-foreground">
                     Александра Кристи
@@ -172,8 +172,8 @@ export default function Index() {
         {/* Problem Section */}
         <section className="px-4 py-8 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-5xl">
-            <Card className="p-8 lg:p-12 shadow-[0_40px_80px_-12px_rgba(0,0,0,0.5)] bg-card/95 backdrop-blur-sm">
-              <div className="text-center space-y-12">
+            <Card className="p-8 lg:p-12 shadow-[0_40px_80px_-12px_rgba(0,0,0,0.5)] relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-br before:from-white/5 before:to-transparent before:pointer-events-none after:absolute after:inset-0 after:bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1)_0%,transparent_50%)] after:pointer-events-none bg-card/95 backdrop-blur-sm">
+              <div className="text-center space-y-12 relative z-10">
                 <div className="space-y-6 animate-slide-up">
                   <h2 className="text-3xl sm:text-4xl font-serif font-bold text-foreground">
                     Отношения с избегающим партнёром — это...
@@ -237,8 +237,8 @@ export default function Index() {
         {/* Course Program */}
         <section className="px-4 py-8 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-7xl">
-            <Card className="p-8 lg:p-12 shadow-[0_40px_80px_-12px_rgba(0,0,0,0.5)] bg-card/95 backdrop-blur-sm">
-              <div className="text-center space-y-6 mb-16">
+            <Card className="p-8 lg:p-12 shadow-[0_40px_80px_-12px_rgba(0,0,0,0.5)] relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-br before:from-white/5 before:to-transparent before:pointer-events-none after:absolute after:inset-0 after:bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1)_0%,transparent_50%)] after:pointer-events-none bg-card/95 backdrop-blur-sm">
+              <div className="text-center space-y-6 mb-16 relative z-10">
                 <h2 className="text-3xl sm:text-4xl font-serif font-bold text-foreground">
                   Что ты узнаешь на курсе
                 </h2>
@@ -248,7 +248,7 @@ export default function Index() {
                 </p>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
                 {[
                   {
                     title: "Понимание паттернов",
@@ -318,14 +318,14 @@ export default function Index() {
         {/* Results Section */}
         <section className="px-4 py-8 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-5xl">
-            <Card className="p-8 lg:p-12 shadow-[0_40px_80px_-12px_rgba(0,0,0,0.5)] bg-card/95 backdrop-blur-sm">
-              <div className="text-center space-y-6 mb-16">
+            <Card className="p-8 lg:p-12 shadow-[0_40px_80px_-12px_rgba(0,0,0,0.5)] relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-br before:from-white/5 before:to-transparent before:pointer-events-none after:absolute after:inset-0 after:bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1)_0%,transparent_50%)] after:pointer-events-none bg-card/95 backdrop-blur-sm">
+              <div className="text-center space-y-6 mb-16 relative z-10">
                 <h2 className="text-3xl sm:text-4xl font-serif font-bold text-foreground">
                   В результате курса ты:
                 </h2>
               </div>
 
-              <div className="space-y-8">
+              <div className="space-y-8 relative z-10">
                 {[
                   {
                     title: "Обретёшь внутреннее спокойствие",
@@ -389,8 +389,8 @@ export default function Index() {
         {/* CTA Section */}
         <section className="px-4 py-8 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-5xl">
-            <Card className="p-8 lg:p-12 shadow-[0_40px_80px_-12px_rgba(0,0,0,0.5)] bg-gradient-to-r from-primary to-primary/80">
-              <div className="text-center space-y-8">
+            <Card className="p-8 lg:p-12 shadow-[0_40px_80px_-12px_rgba(0,0,0,0.5)] relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-br before:from-white/5 before:to-transparent before:pointer-events-none after:absolute after:inset-0 after:bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1)_0%,transparent_50%)] after:pointer-events-none bg-gradient-to-r from-primary to-primary/80">
+              <div className="text-center space-y-8 relative z-10">
                 <div className="space-y-6 mx-0">
                   <h2 className="text-3xl sm:text-4xl font-serif text-primary-foreground font-extralight">
                     Если ты устала ждать, терпеть, оправдывать чужое бездействие
