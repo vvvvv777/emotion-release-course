@@ -20,7 +20,7 @@ export default function Index() {
             <div className="space-y-8 animate-fade-in">
               <div className="space-y-4">
                 <Badge variant="secondary" className="text-sm font-medium">
-                  Психология отношений
+                  Психолог Александра Кристи
                 </Badge>
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-foreground leading-tight">
                   Как выжить в отношениях с
@@ -314,7 +314,7 @@ export default function Index() {
           </div>
           <Separator className="my-6" />
           <div className="text-center text-sm text-muted-foreground">
-            © 2024 Курс по психологии отношений. Все права защищены.
+            © 2025 Курс по психологии отношений. Все права защищены.
           </div>
         </div>
       </footer>
