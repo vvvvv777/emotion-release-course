@@ -14,7 +14,7 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-muted">
       {/* Hero Section */}
-      <section className="relative px-4 py-16 sm:px-6 lg:px-8">
+      <section className="relative px-4 py-8 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-6xl">
           <Card className="p-8 lg:p-12 shadow-2xl bg-card/95 backdrop-blur-sm">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -33,7 +33,10 @@ export default function Index() {
                   </p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Button size="lg" className="text-lg px-8 py-6 rounded-full">
+                  <Button
+                    size="lg"
+                    className="text-lg px-8 py-6 rounded-full bg-red-600 hover:bg-red-700 text-white font-light uppercase"
+                  >
                     Записаться на курс
                     <Icon name="ArrowRight" className="ml-2" size={20} />
                   </Button>
@@ -53,9 +56,9 @@ export default function Index() {
       </section>
 
       {/* Problem Section */}
-      <section className="px-4 py-16 sm:px-6 lg:px-8">
+      <section className="px-4 py-8 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-5xl">
-          <Card className="p-8 lg:p-12 shadow-2xl bg-card/95 backdrop-blur-sm">
+          <Card className="p-8 lg:p-12 shadow-[0_35px_60px_-12px_rgba(0,0,0,0.35)] bg-card/95 backdrop-blur-sm">
             <div className="text-center space-y-12">
               <div className="space-y-6 animate-slide-up">
                 <h2 className="text-3xl sm:text-4xl font-serif font-bold text-foreground">
@@ -122,9 +125,9 @@ export default function Index() {
       </section>
 
       {/* Course Program */}
-      <section className="px-4 py-16 sm:px-6 lg:px-8">
+      <section className="px-4 py-8 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
-          <Card className="p-8 lg:p-12 shadow-2xl bg-card/95 backdrop-blur-sm">
+          <Card className="p-8 lg:p-12 shadow-[0_35px_60px_-12px_rgba(0,0,0,0.35)] bg-card/95 backdrop-blur-sm">
             <div className="text-center space-y-6 mb-16">
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-foreground">
                 Что ты узнаешь на курсе
@@ -203,9 +206,9 @@ export default function Index() {
       </section>
 
       {/* Results Section */}
-      <section className="px-4 py-16 sm:px-6 lg:px-8">
+      <section className="px-4 py-8 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-5xl">
-          <Card className="p-8 lg:p-12 shadow-2xl bg-card/95 backdrop-blur-sm">
+          <Card className="p-8 lg:p-12 shadow-[0_35px_60px_-12px_rgba(0,0,0,0.35)] bg-card/95 backdrop-blur-sm">
             <div className="text-center space-y-6 mb-16">
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-foreground">
                 В результате курса ты:
@@ -273,9 +276,9 @@ export default function Index() {
       </section>
 
       {/* CTA Section */}
-      <section className="px-4 py-16 sm:px-6 lg:px-8">
+      <section className="px-4 py-8 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-5xl">
-          <Card className="p-8 lg:p-12 shadow-2xl bg-gradient-to-r from-primary to-primary/80">
+          <Card className="p-8 lg:p-12 shadow-[0_35px_60px_-12px_rgba(0,0,0,0.35)] bg-gradient-to-r from-primary to-primary/80">
             <div className="text-center space-y-8">
               <div className="space-y-6 mx-0">
                 <h2 className="text-3xl sm:text-4xl font-serif text-primary-foreground font-extralight">
@@ -292,7 +295,7 @@ export default function Index() {
                 <Button
                   size="lg"
                   variant="secondary"
-                  className="text-lg px-8 py-6 rounded-full"
+                  className="text-lg px-8 py-6 rounded-full bg-red-600 hover:bg-red-700 text-white font-light uppercase"
                 >
                   Записаться на курс прямо сейчас
                   <Icon name="ArrowRight" className="ml-2" size={20} />
@@ -313,7 +316,7 @@ export default function Index() {
       {/* Footer */}
       <footer className="px-4 py-8 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-6xl">
-          <Card className="p-8 shadow-lg bg-card/95 backdrop-blur-sm">
+          <Card className="p-8 shadow-[0_35px_60px_-12px_rgba(0,0,0,0.35)] bg-card/95 backdrop-blur-sm">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <div className="text-center md:text-left">
                 <h3 className="text-xl font-serif font-semibold text-foreground">
