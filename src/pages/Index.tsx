@@ -282,7 +282,7 @@ export default function Index() {
                   Если ты устала ждать, терпеть, оправдывать чужое бездействие и
                   вечный холод
                 </h2>
-                <p className="text-xl text-primary-foreground/90 max-w-2xl mx-auto">
+                <p className="text-xl text-primary-foreground/90 max-w-2xl mx-auto font-extralight">
                   Пора возвращать себя себе. Ты заслуживаешь отношений, в
                   которых тебе спокойно, надёжно и радостно.
                 </p>
