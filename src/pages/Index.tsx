@@ -37,13 +37,6 @@ export default function Index() {
                     Записаться на курс
                     <Icon name="ArrowRight" className="ml-2" size={20} />
                   </Button>
-                  <Button
-                    variant="outline"
-                    size="lg"
-                    className="text-lg px-8 py-6 rounded-full"
-                  >
-                    Узнать подробнее
-                  </Button>
                 </div>
               </div>
               <div className="relative animate-scale-in">
