@@ -34,7 +34,7 @@ export default function Index() {
                 y1="0"
                 x2="150"
                 y2="150"
-                stroke="#374151"
+                stroke="#d97706"
                 strokeWidth="2"
                 opacity="0.6"
               />
@@ -43,7 +43,7 @@ export default function Index() {
                 y1="150"
                 x2="150"
                 y2="0"
-                stroke="#6b7280"
+                stroke="#f59e0b"
                 strokeWidth="2"
                 opacity="0.4"
               />
@@ -52,7 +52,7 @@ export default function Index() {
                 y1="75"
                 x2="150"
                 y2="225"
-                stroke="#9ca3af"
+                stroke="#fbbf24"
                 strokeWidth="1"
                 opacity="0.5"
               />
@@ -61,7 +61,7 @@ export default function Index() {
                 y1="0"
                 x2="225"
                 y2="150"
-                stroke="#6b7280"
+                stroke="#f59e0b"
                 strokeWidth="1"
                 opacity="0.4"
               />
@@ -70,7 +70,7 @@ export default function Index() {
                 y1="0"
                 x2="75"
                 y2="150"
-                stroke="#374151"
+                stroke="#d97706"
                 strokeWidth="1"
                 opacity="0.3"
               />
@@ -79,7 +79,7 @@ export default function Index() {
                 y1="-75"
                 x2="150"
                 y2="75"
-                stroke="#9ca3af"
+                stroke="#fbbf24"
                 strokeWidth="1"
                 opacity="0.3"
               />
