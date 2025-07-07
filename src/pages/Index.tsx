@@ -26,7 +26,7 @@ export default function Index() {
                   Как выжить в отношениях с
                   <span className="text-primary"> избегающим мужчиной</span>
                 </h1>
-                <p className="text-xl text-muted-foreground max-w-2xl">
+                <p className="text-xl text-muted-foreground max-w-2xl font-extralight">
                   Профессионально выстроенный маршрут для тех, кто оказался в
                   сценарии отношений с эмоционально недоступным партнёром
                 </p>
